@@ -1,0 +1,493 @@
+body{
+    background-color: var(--cuarto-color);
+}
+/*=============== HOME ===============*/
+.home_bg{
+    width: 100%;
+      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/about/about_banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding-top: 3.5rem;
+}
+
+.home__info{
+    position: relative;
+    margin-left: 0.75rem;
+}
+.home__aside{
+    background-color: #4c4b4b5a;
+}
+.home__title{
+    font-size: 20px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__subtitle{
+    font-size: 14px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__botones{
+    margin: 10px;
+}
+
+
+.home__social{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.home__icon{
+    color: var(--sexto-color);
+    font-size: 1rem;
+    transition: color .4s;
+}
+.home__icon:hover{
+    color: var(--first-color);
+}
+
+
+/*=============== ABOUT ===============*/
+.about{
+    color: var(--sexto-color);
+}
+.about__subtitle{
+    color:var(--secund-color);
+    text-align: left;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.about__img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    border-radius: 30px 55px 30px 55px;
+    border: 2px solid var(--secund-color);
+    img{
+        width: 96%;
+        height: 96%;
+        border-radius: 30px 55px 30px 55px;
+        object-fit: cover;
+    }
+}
+.about__title{
+    text-align: left;
+}
+.about__parrafo{
+    margin-bottom: 1rem;
+}
+
+.about__containerNumbers{
+    background: #FFE864;
+    background: linear-gradient(0deg, rgba(255, 232, 100, 1) 0%, rgba(153, 139, 60, 1) 68%);
+    border-radius: 25px;
+    padding: 1rem;
+}
+.about__mainText{
+    color: var(--cuarto-color);
+    background-color: var(--secund-color);
+    padding: 1rem;
+    border-radius: 25px;
+}
+.about__mainTextTitle{
+    margin-bottom: 1rem;
+    color: var(--title-color);
+    font-weight: 900;
+    font-size: 17px;
+}
+.number__text{
+    text-align: center;
+    border-bottom: 1px solid var(--sexto-color);
+    width: 70%;
+    margin: auto;
+}
+.number__title{
+    font-size: 55px;
+}
+.number__parrafo{
+    margin-bottom: 1rem;
+}
+/*=============== POR QUE ELEGIR ===============*/
+.porque{
+    color: #E6E3E3;
+}
+.porque__mainTextTitle{
+    color: var(--secund-color);
+    margin-bottom: 0;
+}
+.porque__title{
+    color: var(--sexto-color);
+}
+.porque__listItem{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap:1rem;
+    margin-bottom: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid #a9a9a987;
+}
+.listItemTitle{
+    margin-bottom: 5px;
+}
+.listItemDescription{
+    margin-bottom: 1rem;
+}
+.porque__img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    border-radius: 55px 30px 55px 30px;
+    border: 2px solid var(--secund-color);
+    img{
+        width: 96%;
+        height: 96%;
+        border-radius: 55px 30px 55px 30px;
+    }
+}
+
+
+/*===============  CALL ACTION  ===============*/
+.callAction{
+    background-image: linear-gradient(180deg, #bcb44480 0%, rgba(210, 193, 60, 0.5) 35%, rgba(208, 191, 63, 0.597) 100%), url(../img/about/callaction.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 1rem;
+}
+.callAction__info{
+    background-color: #333333ad;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    color: var(--septimo-color);
+}
+.callAction__contenBoton{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.60rem;
+}
+.callAction__boton{
+    background-color: #EC3C49;
+}
+
+/*=============== HISTORIA ===============*/
+.historia{
+    color: var(--septimo-color);
+}
+.historia__img{
+    width: 100%;
+    margin: 1.2rem 0;
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+.conten__vimi_head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.valores__info__title{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.vismis__card__title{
+    color: var(--secund-color);
+}
+.vision__mision_card{
+    margin-bottom: 1rem;
+}
+.valores__info{
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.valores__img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    border-radius: 30px 55px 30px 55px;
+    border: 2px solid var(--secund-color);
+    img{
+        width: 96%;
+        height: 96%;
+        border-radius: 30px 55px 30px 55px;
+    }
+}
+
+/*=============== CALL ACTIONS 2 ===============*/
+.callAction_2{
+    color: var(--sexto-color);
+    background: #575353;
+    background: radial-gradient(circle, rgba(87, 83, 83, 1) 0%, rgba(23, 23, 23, 1) 43%);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.container__callActions_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.callAction_2_card__two{
+    transform: scale(1.25);
+    transition: all .4s;
+}
+.callAction_2_text{
+
+    text-align: center;
+    margin-top: 2rem;
+}
+.boton__center{
+    display: flex;
+    justify-content: center;
+}
+
+/*=============== CONTACTO ===============*/
+.contacto{
+    background-color: #434A51;
+    color: var(--sexto-color);
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.contacto__title{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline #fee0867e 1px ;
+    text-underline-offset: 5px;
+}
+.contacto__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.boton__container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FEE086;
+}
+.boton__container:hover{
+    background-color: #fff673fa;
+    transition: all .4s;
+
+}
+.boton__contacto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton__img{
+    width: 25px;
+    height: 25px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 30px;
+        margin: 40px 10px 30px 10px;
+    }
+    .home_bg{
+        height: 400px;
+    }
+
+
+    /*=============== ABOUT  ===============*/
+    .about{
+         margin-top: 0;
+         padding-top: 4rem;
+    }
+    .about__containerNumbers{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .about__circle{
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    /*=============== HISTORIA ===============*/
+    .historia__content_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    /*=============== HISTORIA ===============*/
+    .callAction_2{
+        padding-top: 5rem;
+        padding-bottom: 2rem;
+    }
+    .callAction_2_text{
+        margin-top: 3.8rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 765px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 40px;
+        margin: 80px 10px 20px 10px;
+    }
+    .home_bg{
+        height: 500px;
+        grid-template-columns: 1fr 15fr;
+
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .home__icon{
+        font-size: 1.5rem;
+    }
+    .home__social{
+        gap: 30px;
+    }
+    .home__aside{
+        padding-bottom: 20px;
+    }
+
+    /*=============== ABOUT ===============*/
+
+    .contenedor__about{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .about__containerNumbers{
+        margin-top: 3rem;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    }
+
+    /*===============  POR QUE ELEGIR  ===============*/
+    .porque__content{
+        grid-template-columns:1fr 1fr; 
+        gap: 3rem;
+    }   
+
+    /*===============  CALL ACTION  ===============*/
+    .callAction{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .callAction__content{
+        max-width: 500px;
+    }
+
+    /*===============  HISTORIA  ===============*/
+    .valores__contenedor{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 2.5rem 0;
+    }
+    
+
+
+    /*=============== CONTACTO ===============*/
+    .contacto{
+        height: 300px;
+    }
+    .contacto__title{
+        font-size: 60px;
+    }
+
+}
+
+
+
+/* For large devices */
+@media screen and (min-width: 1023px) {
+  .section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 50px;
+        margin: 200px 10px 40px 10px;
+    }
+    .home_bg{
+        height: 700px;
+        grid-template-columns:  1fr 20fr;
+    }
+    .home__info{
+        position: relative;
+        margin-left: 3rem;
+        max-width: 1300px;
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 30px 10px;
+    }
+
+
+    /*===============  ABOUT  ===============*/
+    .about{
+         margin-top: 0;
+         padding-top: 5rem;
+         padding-bottom: 5rem;
+    }
+
+    /*===============  CALL ACTION 2  ===============*/
+    .callAction_2{
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+    .callAction_2_text{
+        margin-top: 4rem;
+    }
+    .callAction_2_card__two{
+        transform: scale(1.19);
+        transition: all .4s;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+    /*===============  CALL ACTION  ===============*/
+    .callAction{
+        height: 780px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1550px) {
+
+    /*===============  ABOUT  ===============*/
+
+}

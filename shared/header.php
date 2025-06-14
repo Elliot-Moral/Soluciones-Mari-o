@@ -13,18 +13,18 @@
                   </li>
 
                   <li class="nav__item">
-                     <a href="nosotros" class="nav__link">Sobre Nosotros</a>
+                     <a href="about" class="nav__link">About Us</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="servicios" class="nav__link">Servicios</a>
+                     <a href="services" class="nav__link">Services</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="proyectos" class="nav__link">Proyectos</a>
+                     <a href="projects" class="nav__link">Projects</a>
                   </li>
                   <li class="nav__item">
-                    <a href="contacto" class="nav__link">Contacto</a>
+                    <a href="contact" class="nav__link">Contact</a>
                  </li>
                </ul>
 

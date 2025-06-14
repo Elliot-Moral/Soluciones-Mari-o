@@ -24,7 +24,7 @@
                         <ul class="footer__listColombia">
                               <li class="footer__item">Villavicencio - Colombia</li>
                               <li class="footer__item">info@soluciones.com</li>
-                              <li class="footer__item">3177935184 - 3144625599</li>
+                              <li class="footer__item">+57 312 3004891</li>
                               <li class="footer__item">Calle 34b 17 a 03 barrio el milagro via Catama.</li>
                         </ul>
                   </div>
@@ -40,10 +40,10 @@
 
                   <div class="footer__media">
                         <ul class="footer__listMedia">
-                              <li><a href="serviciosl" class="footer__icon"><i class='bx bxl-facebook'></i></a></li>
-                              <li><a href="proyectos" class="footer__icon"><i class='bx bxl-instagram'></i></a></li>
-                              <li><a href="sdsdsd" class="footer__icon"><i class='bx bxl-youtube'></i></a></li>
-                              <li><a href="contacto" class="footer__icon"><i class='bx bxl-twitter'></i></a></li>
+                              <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100063769551722" class="footer__icon"><i class='bx bxl-facebook'></i></a></li>
+                              <li><a target="_blank" href="https://www.instagram.com/" class="footer__icon"><i class='bx bxl-instagram'></i></a></li>
+                              <li><a target="_blank" href="https://www.youtube.com/" class="footer__icon"><i class='bx bxl-youtube'></i></a></li>
+                              <li><a target="_blank" href="https://twitter.com/" class="footer__icon"><i class='bx bxl-twitter'></i></a></li>
                         </ul>
                   </div>
 

@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon32.png">
+        <!-- Favicon estándar para navegadores -->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+
+        <!-- Color de la barra de direcciones en móviles -->
+        <meta name="theme-color" content="#ffffff">
     
     <title>Uh-oh!</title>
 

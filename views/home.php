@@ -31,8 +31,12 @@
       <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
       <!--=============== FAVICON ===============-->
-      <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon16.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon32.png">
+        <!-- Favicon estándar para navegadores -->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+
+        <!-- Color de la barra de direcciones en móviles -->
+        <meta name="theme-color" content="#ffffff">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/reglas.css">
@@ -65,9 +69,9 @@
 
                <div class="home__aside">
                   <div class="home__social">
-                        <a target="_blank" href="#" class="home__icon"><i class='bx bxl-facebook' ></i></a>
-                        <a target="_blank" href="#" class="home__icon"><i class='bx bxl-instagram' ></i></a>
-                        <a target="_blank" href="#" class="home__icon"><i class='bx bxl-youtube' ></i></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100063769551722" class="home__icon"><i class='bx bxl-facebook' ></i></a>
+                        <a target="_blank" href="https://www.instagram.com/" class="home__icon"><i class='bx bxl-instagram' ></i></a>
+                        <a target="_blank" href="https://www.youtube.com/" class="home__icon"><i class='bx bxl-youtube' ></i></a>
                   </div>
                </div>
 
@@ -173,61 +177,77 @@
                <div class="container">
                   <div class="servicios__info bg_grid">
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_uno.png" alt="representacion de servicios">
+                     <a href="remodelaciones">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_uno.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Remodelaciones</h3>
                         </div>
-                        <h3 class="servicios_desc">Remodelaciones</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_dos.png" alt="representacion de servicios">
+                     <a href="pintura">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_dos.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Pintura</h3>
                         </div>
-                        <h3 class="servicios_desc">Pintura</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_tres.png" alt="representacion de servicios">
+                     <a href="trabajo-en-alturas">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_tres.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Trabajo en alturas</h3>
                         </div>
-                        <h3 class="servicios_desc">Trabajo en alturas</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_four.png" alt="representacion de servicios">
+                     <a href="interiores">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_four.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Interiores</h3>
                         </div>
-                        <h3 class="servicios_desc">Interiores</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_five.png" alt="representacion de servicios">
+                     <a href="aseo">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_five.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Aseo grueso y fino</h3>
                         </div>
-                        <h3 class="servicios_desc">Aseo grueso y fino</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_six.png" alt="representacion de servicios">
+                     <a href="enchapes">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_six.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Enchapes</h3>
                         </div>
-                        <h3 class="servicios_desc">Enchapes</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_seven.png" alt="representacion de servicios">
+                     <a href="trabajos-en-alturas">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_seven.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Redes eléctricas</h3>
                         </div>
-                        <h3 class="servicios_desc">Redes eléctricas</h3>
-                     </div>
+                     </a>
 
-                     <div class="servicios_card">
-                        <div class="servicios_img">
-                           <img src="assets/img/home/service_ocho.png" alt="representacion de servicios">
+                     <a href="construcciones">
+                        <div class="servicios_card">
+                           <div class="servicios_img">
+                              <img src="assets/img/home/service_ocho.png" alt="representacion de servicios">
+                           </div>
+                           <h3 class="servicios_desc">Construcciones</h3>
                         </div>
-                        <h3 class="servicios_desc">Construcciones</h3>
-                     </div>
+                     </a>
                   </div>
                </div>
 
@@ -440,8 +460,8 @@
             <p>Estas Listo?</p>
             <h2 class="contacto__title">Contáctanos</h2>
             <div class="boton__container">
-               <a class="boton__contacto" href="">
-                  <img class="boton__img" src="assets/icons/Arrow Right.png" alt="">
+               <a class="boton__contacto" href="https://wa.me/573123004891?text=Hola%2C%20quisiera%20más%20información" target="_blank" rel="noopener noreferrer">
+                  <img class="boton__img" src="assets/icons/Arrow Right.png" alt="icono de flecha hacia la derecha">
                </a>
             </div>
          </div>
