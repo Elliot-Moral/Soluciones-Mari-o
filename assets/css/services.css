@@ -4,20 +4,17 @@ body{
 /*=============== HOME ===============*/
 .home_bg{
     width: 100%;
-      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/renovations/banner_remode.webp);
+    background-image: url(../img/services/banner_services.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 8fr 1fr;
     padding-top: 3.5rem;
 }
 
 .home__info{
     position: relative;
-    margin-left: 0.75rem;
-}
-.home__aside{
-    background-color: #4c4b4b5a;
+    margin-left: 1rem;
 }
 .home__title{
     font-size: 20px;
@@ -33,7 +30,9 @@ body{
     margin: 10px;
 }
 
-
+.home__aside{
+    background-color: #4c4b4b8e;
+}
 .home__social{
     height: 100%;
     display: flex;
@@ -53,77 +52,48 @@ body{
 }
 
 
-
 /*=============== ABOUT ===============*/
 .about{
-     background-color: var(--body-color);
-     margin-top: 0;
-     margin-bottom: 0;
-     padding-top: 1.5rem;
-     padding-bottom: 2rem;
-     color: var(--cuarto-color);
+    color: var(--sexto-color);
+    background: #272727;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .contenedor__about{
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
 }
-.about__title{
-    text-align: left;
-    color: var(--title-color);
-}
-.about__row{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 1rem;
-}
-.about__info{
-    margin-bottom: 2rem;
-}
-.about__img{
+.card_services{
     position: relative;
 }
-.about__overlay{
-    width: 70%;
-    padding: 1.2rem;
-    background-color: var(--body-color);
-    bottom: 0;
-    left: 0;
+.card__info{
+    width: 100%;
+    height: 100%;
     position: absolute;
-}
-.title__overlay{
-    color: var(--first-color);
-    margin-bottom: 10px;
-}
-.info__last{
-    margin-top: 2rem;
-}
-
-
-/*=============== CALL ACTIONS 2 ===============*/
-.callAction_2{
-    color: var(--sexto-color);
-    background: #575353;
-    background: radial-gradient(circle, rgba(87, 83, 83, 1) 0%, rgba(23, 23, 23, 1) 43%);
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-}
-.container__callActions_2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.callAction_2_card__two{
-    transform: scale(1.25);
-    transition: all .4s;
-}
-.callAction_2_text{
-
-    text-align: center;
-    margin-top: 2rem;
-}
-.boton__center{
+    top: 0;
+    left: 0;
+    background-color: #27272784;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3{
+        color: var(--sexto-color);
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    p{
+        color: var(--sexto-color);
+        font-size: 14px;
+        text-align: center;
+        margin-top: 5px;
+    }
 }
-
+.card__info:hover{
+    background-color: #2727272c;
+    transition: all .4s;
+}
 /*=============== CONTACTO ===============*/
 .contacto{
     background-color: #434A51;
@@ -181,8 +151,16 @@ body{
         height: 400px;
     }
 
-    /*=============== ABOUT  ===============*/
-   
+
+    /*=============== ABOUT & SEVICIOS ===============*/
+    .about{
+         padding-top: 4rem;
+    }
+    .contenedor__about{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
 }
 
 
@@ -195,8 +173,6 @@ body{
     }
     .home_bg{
         height: 500px;
-        grid-template-columns: 1fr 15fr;
-
     }
     .home__subtitle{
         font-size: 20px;
@@ -213,28 +189,8 @@ body{
     }
 
     /*=============== ABOUT ===============*/
-    .about{
-        margin-bottom: 0;
-    }
-    .about__section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        /* justify-content: center; */
-        align-items: center;
-        justify-items: center;
-    }
-    .about__img{
-        max-height: 450px;
-        width: 78%;
-        img{
-            max-height: 450px;
-            object-fit: cover;
-        }
-    }
-    .about__info{
-        width: 78%;
-    }
+
+
 
     /*=============== CONTACTO ===============*/
     .contacto{
@@ -243,6 +199,7 @@ body{
     .contacto__title{
         font-size: 60px;
     }
+
 }
 
 
@@ -261,7 +218,7 @@ body{
     }
     .home_bg{
         height: 700px;
-        grid-template-columns:  1fr 20fr;
+        grid-template-columns: 22fr 1fr;
     }
     .home__info{
         position: relative;
@@ -272,28 +229,25 @@ body{
         font-size: 20px;
         margin: 30px 10px;
     }
-
+    .home__aside{
+        height: 100%;
+    }
 
     /*===============  ABOUT  ===============*/
     .about{
-         margin-top: 0;
-         margin-bottom: 0;
          padding-top: 5rem;
-         padding-bottom: 5rem;
+    }
+    .card_services{
+        img{
+            width: 100%;
+            height: 303px;
+            object-fit: cover;
+        }
     }
 
-    /*===============  CALL ACTION 2  ===============*/
-    .callAction_2{
-        padding-top: 6rem;
-        padding-bottom: 2rem;
-    }
-    .callAction_2_text{
-        margin-top: 4rem;
-    }
-    .callAction_2_card__two{
-        transform: scale(1.19);
-        transition: all .4s;
-    }
+    /*===============  PROYECTOS  ===============*/
+ 
+
 }
 
 
@@ -303,10 +257,9 @@ body{
     margin-inline: auto;
   }
 
-    /*===============  CALL ACTION  ===============*/
-    .callAction{
-        height: 780px;
-    }
+    /*===============  PROYECTOS  ===============*/
+
+
 
 }
 

@@ -4,7 +4,7 @@ body{
 /*=============== HOME ===============*/
 .home_bg{
     width: 100%;
-      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/renovations/banner_remode.webp);
+      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/paint/banner_paint.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -66,37 +66,139 @@ body{
 .contenedor__about{
     gap: 2rem;
 }
-.about__title{
-    text-align: left;
-    color: var(--title-color);
+.contenedor__about{
+    grid-template-columns: 1fr 1fr;
 }
-.about__row{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 1rem;
+.about__card{
+    background-color: #fff;
+    box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
 }
-.about__info{
-    margin-bottom: 2rem;
+.card__title{
+    text-align: center;
 }
-.about__img{
-    position: relative;
+.about__titleCard{
+    padding: 0.2rem;
+    color: var(--text-color);
 }
-.about__overlay{
-    width: 70%;
-    padding: 1.2rem;
-    background-color: var(--body-color);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-}
-.title__overlay{
-    color: var(--first-color);
-    margin-bottom: 10px;
-}
-.info__last{
+.about_contentInfo{
+    background-color: var(--secund-color);
     margin-top: 2rem;
+    padding: 1.4rem;
+}
+.about__colors{
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.about__colorsItems{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.about__colorsItems:first-child{
+    background-color: #2F4D70;
+}
+.about__colorsItems:nth-child(2){
+    background-color: #407E98;
+ }
+.about__colorsItems:nth-child(3){
+    background-color: #76A5B3;
+ }
+ .about__colorsItems:nth-child(4){
+    background-color: #859EAF;
+ }.about__colorsItems:nth-child(5){
+    background-color: #87AEBA;
+ }.about__colorsItems:nth-child(6){
+    background-color: #AEB8B7;
+ }.about__colorsItems:nth-child(7){
+    background-color: #AD8E5A;
+ }.about__colorsItems:nth-child(8){
+    background-color: #787672;
+ }
+ .about__colorsItems:nth-child(9){
+    background-color: #806B5E;
+ }
+ .about__colorsItems:nth-child(10){
+    background-color: #3C3A38;
+ }
+.about__infoTitle, .paintInfo__Title{
+    text-align: left;
+}
+.paintInfo__textCaracteristica{
+    margin-top: 1.2rem;
+}
+.textCaracteristica__title{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.paintInfo__img{
+    img{
+        border-radius: 20px;
+    }
 }
 
+/*=============== GALERIA ===============*/
+.galeria{
+    background-color: var(--body-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--cuarto-color);
+}
+.contenedor__galeria{
+    display: grid;
+    gap: 1.2rem;
+    position: relative;
+    padding-top: 3rem;
+}
+.containar__cardsGalery{
+    display: grid;
+    gap: 1.2rem;
+    z-index: 20;
+}
+.galeria__cardImg_title{
+    margin-bottom: 1rem;
+}
+.galeria__cardText{
+   padding: 1.2rem;
+   width: 70%;
+
+}
+.galeria__forndo{
+    background-color: var(--cuarto-color);
+    width: 30%;
+    height: 88%;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+}
+
+/*=============== SERVICIOS DE PINTURA ===============*/
+.paint_services{
+     background-color: var(--body-color);
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.5rem;
+     padding-bottom: 2rem;
+     color: var(--cuarto-color);
+}
+.contenedor__paint_services{
+    gap: 1.2rem;
+}
+.paint_serviceCard{
+    background-color: #D0D4D6;
+    padding: 1.2rem;
+    border-radius: 20px;
+}
+.serviceCard__title{
+    color: var(--first-color);
+    margin-bottom: 0.75rem;
+    font-size: 20px;
+}
 
 /*=============== CALL ACTIONS 2 ===============*/
 .callAction_2{
@@ -216,24 +318,22 @@ body{
     .about{
         margin-bottom: 0;
     }
-    .about__section{
+    .contenedor__about{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .about_contenido{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
-        /* justify-content: center; */
-        align-items: center;
-        justify-items: center;
     }
-    .about__img{
-        max-height: 450px;
-        width: 78%;
-        img{
-            max-height: 450px;
-            object-fit: cover;
-        }
+    .about_contentInfo{
+        position: relative;
+        padding: 4rem 0;
     }
-    .about__info{
-        width: 78%;
+    .about__imgimg{
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
     }
 
     /*=============== CONTACTO ===============*/
@@ -280,6 +380,60 @@ body{
          margin-bottom: 0;
          padding-top: 5rem;
          padding-bottom: 5rem;
+    }
+    .about__colors{
+        position: absolute;
+        top: 2.2rem;
+        right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*===============  PAINT  ===============*/
+
+    .paint_services, .galeria{
+         margin-top: 0;
+         margin-bottom: 0;
+         padding-bottom: 5rem;
+    }
+    .contenedor__paint_services{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 3rem;
+    }
+    .paint_serviceCard{
+        padding: 2rem;
+    }
+
+    .contenedor__paintInfo{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+        justify-items: center;
+    }
+    .paintInfo__Title{
+        margin-bottom: 4rem;
+    }
+    .paintInfo__textCaracteristica{
+        margin-bottom: 5rem;
+    }
+    /*===============  GALERIA  ===============*/
+    .containar__cardsGalery{
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .galeria__cardImg_title{
+        margin-bottom: 1rem;
+        font-size: 23px;
+    }
+    .galeria__cardText{
+        width: 100%; 
+    }
+    .galeria__forndo{
+        height: 72%;
+        width: 78%;
+
     }
 
     /*===============  CALL ACTION 2  ===============*/

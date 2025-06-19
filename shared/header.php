@@ -3,7 +3,9 @@
 
          <nav class="nav container">
             <div class="nav__logo">
-               <img src="assets/icons/sim_logo.png" alt="">
+               <a href="home">
+                  <img src="assets/icons/sim_logo.png" alt="">
+               </a>
             </div>
 
             <div class="nav__menu" id="nav-menu">

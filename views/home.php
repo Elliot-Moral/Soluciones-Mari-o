@@ -177,7 +177,7 @@
                <div class="container">
                   <div class="servicios__info bg_grid">
 
-                     <a href="remodelaciones">
+                     <a href="renovations">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_uno.png" alt="representacion de servicios">
@@ -186,7 +186,7 @@
                         </div>
                      </a>
 
-                     <a href="pintura">
+                     <a href="paint">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_dos.png" alt="representacion de servicios">
@@ -195,7 +195,7 @@
                         </div>
                      </a>
 
-                     <a href="trabajo-en-alturas">
+                     <a href="workheights">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_tres.png" alt="representacion de servicios">
@@ -204,16 +204,16 @@
                         </div>
                      </a>
 
-                     <a href="interiores">
+                     <!-- <a href="interiores">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_four.png" alt="representacion de servicios">
                            </div>
                            <h3 class="servicios_desc">Interiores</h3>
                         </div>
-                     </a>
+                     </a> -->
 
-                     <a href="aseo">
+                     <a href="cleanliness">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_five.png" alt="representacion de servicios">
@@ -222,16 +222,16 @@
                         </div>
                      </a>
 
-                     <a href="enchapes">
+                     <!-- <a href="enchapes">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_six.png" alt="representacion de servicios">
                            </div>
                            <h3 class="servicios_desc">Enchapes</h3>
                         </div>
-                     </a>
+                     </a> -->
 
-                     <a href="trabajos-en-alturas">
+                     <a href="electricity">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_seven.png" alt="representacion de servicios">
@@ -240,7 +240,7 @@
                         </div>
                      </a>
 
-                     <a href="construcciones">
+                     <a href="constructions">
                         <div class="servicios_card">
                            <div class="servicios_img">
                               <img src="assets/img/home/service_ocho.png" alt="representacion de servicios">

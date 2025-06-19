@@ -1,0 +1,526 @@
+body{
+    background-color: var(--cuarto-color);
+}
+/*=============== HOME ===============*/
+.home_bg{
+    width: 100%;
+    background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/cleanliness/aseo_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding-top: 3.5rem;
+}
+
+.home__info{
+    position: relative;
+    margin-left: 0.75rem;
+}
+.home__aside{
+    background-color: #4c4b4b5a;
+}
+.home__title{
+    font-size: 20px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__subtitle{
+    font-size: 14px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__botones{
+    margin: 10px;
+}
+
+
+.home__social{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.home__icon{
+    color: var(--sexto-color);
+    font-size: 1rem;
+    transition: color .4s;
+}
+.home__icon:hover{
+    color: var(--first-color);
+}
+
+
+
+/*=============== ABOUT ===============*/
+.about{
+     color: var(--body-color);
+}
+.contenedor__about{
+    gap: 1.2rem;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+
+/*=============== NUESTRO TRABAJO ===============*/
+.nuestro_trabajo{
+    background-image: linear-gradient(180deg, #3f3e3fc4 0%, rgba(73, 73, 73, 0.767) 35%, rgba(2, 2, 2, 0.708) 100%), url(../img/cleanliness/banner__nuestro.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: var(--body-color);
+}
+.nuestro__img{
+    position: relative;
+}
+.nuestroMainImg{
+    width: 70%;
+    height: 100%;
+    z-index: 50;
+    img{
+        border-radius: 50% 50% 0 0;
+    }
+
+}
+.nuestro__imgUnder{
+    width: 50%; 
+    height: 100%; 
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 5;
+}
+/*=============== ENFOQUE ===============*/
+.nuestro_enfoque{
+    color: var(--body-color);
+}
+.contenedor__nuestro_info{
+    position: relative;
+    margin-top: 4rem;
+}
+.nuestro__imgEnfoque{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 30px;
+    top: -110px;
+}
+.contenedor__nuestro_info{
+    margin-bottom: 1.2rem;
+}
+.nuestro__infoTitleEnfoque{
+    font-size: 50px;
+    text-align: center;
+}
+.contenedor__nuestro_enfoque{
+    gap: 1.5rem;
+}
+.nuestro__infoTitle{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.nuestro__imgCard{
+    margin-bottom: 1rem;
+}
+.nuestro__cardImgneto_uno{
+    border-radius: 50% 50% 0 0;
+}
+.nuestro__cardImgneto_dos{
+    border-radius: 50% 0 0 50%;
+}
+.nuestro__cardImgneto_tres{
+    border-radius:0 0 50% 50%;
+}
+/*=============== PROYECTOS ===============*/
+.proyectos{
+    color: var(--sexto-color);
+}
+.contenedor__proyectos{
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.proyectos__card{
+    position: relative;
+    cursor: pointer;
+}
+.card__title{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+}
+.proyecto__titleCard{
+    color: #ffffffcc;
+    text-align: center;
+}
+
+/*=============== POR QUE ELEGIRNOS ===============*/
+.por_que_elegirnos{
+    color: var(--body-color);
+}
+.img__icon{
+    width: 50px;
+    height: 50px;
+}
+.contenedor__razon_porQueElegirnos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+.razon_porQueElegirnos__img{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: start;
+}
+
+/*=============== NUESTRO PERFIL PROFESIONAL ===============*/
+.perfil_profesional{
+    color: var(--body-color);
+}
+.perfil__estrellas{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.perfil_profesional__text{
+    background-color: #37383A;
+    padding: 1rem;
+}
+
+.icono__perfil{
+    padding: 2rem;
+    background-color: var(--first-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.perfil_profesional__img{
+    position: relative;
+}
+.nombre__profesional{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background: #F76906;
+    background: linear-gradient(90deg,rgba(247, 105, 6, 1) 0%, rgba(247, 105, 6, 0.45) 100%);
+    padding: 1.3rem;
+    font-size: 22px;
+}
+
+
+/*=============== CALL ACTIONS 2 ===============*/
+.callAction_2{
+    color: var(--sexto-color);
+    background: #575353;
+    background: radial-gradient(circle, rgba(87, 83, 83, 1) 0%, rgba(23, 23, 23, 1) 43%);
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.container__callActions_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.callAction_2_card__two{
+    transform: scale(1.25);
+    transition: all .4s;
+}
+.callAction_2_text{
+
+    text-align: center;
+    margin-top: 2rem;
+}
+.boton__center{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*=============== CONTACTO ===============*/
+.contacto{
+    background-color: #434A51;
+    color: var(--sexto-color);
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.contacto__title{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline #fee0867e 1px ;
+    text-underline-offset: 5px;
+}
+.contacto__contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.boton__container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FEE086;
+}
+.boton__container:hover{
+    background-color: #fff673fa;
+    transition: all .4s;
+
+}
+.boton__contacto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton__img{
+    width: 25px;
+    height: 25px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 30px;
+        margin: 40px 10px 30px 10px;
+    }
+    .home_bg{
+        height: 400px;
+    }
+
+    /*=============== ABOUT  ===============*/
+   
+}
+
+
+@media screen and (min-width: 765px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 40px;
+        margin: 80px 10px 20px 10px;
+    }
+    .home_bg{
+        height: 500px;
+        grid-template-columns: 1fr 15fr;
+
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .home__icon{
+        font-size: 1.5rem;
+    }
+    .home__social{
+        gap: 30px;
+    }
+    .home__aside{
+        padding-bottom: 20px;
+    }
+
+    /*=============== ABOUT ===============*/
+    .about{
+        margin-bottom: 0;
+    }
+    .contenedor__about{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+    }
+                           
+
+    /*=============== NUESTRO TRABAJO ===============*/
+    .contenedor__nuestro_trabajo{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .nuestro__imgEnfoque{
+        width: 250px;
+        height: 250px;
+        right: 30px;
+        top: -150px;
+    }
+
+    /*=============== PROYECTO ===============*/
+
+    .contenedor__proyectos{
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        gap: 1rem;
+    }   
+
+    /*=============== ENFOQUE ===============*/
+    .nuestro__infoEnfoque{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+    .nuestro__infoTitleEnfoque{
+        font-size: 35px;
+        text-align: start;
+        }
+    .contenedor__nuestro_enfoque{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7rem;
+        margin-top: 4rem;
+    }
+    .mensaje__critiano{
+        margin-top: 2rem;
+        text-align: center;
+        color: #FEE086;
+    }
+
+    /*=============== POR QUE ELEGIRNO ===============*/
+    .contenedor__porQueElegirnos{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+
+    /*=============== NUESTRO PERFIL PROFESIONAL ===============*/
+    .perfil_profesional{
+        margin-bottom: 3rem;
+    }
+    .contenedor__perfilProfesional{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+         display: grid;
+        max-width: 900px;
+        margin: auto;
+    }
+    .perfil_profesional__text{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-left: 2rem;
+    }
+    .icono__perfil{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .perfil_profesional__title{
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 3rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    /*=============== CONTACTO ===============*/
+    .contacto{
+        height: 300px;
+    }
+    .contacto__title{
+        font-size: 60px;
+    }
+}
+
+
+
+/* For large devices */
+@media screen and (min-width: 1023px) {
+  .section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 50px;
+        margin: 200px 10px 40px 10px;
+    }
+    .home_bg{
+        height: 700px;
+        grid-template-columns:  1fr 20fr;
+    }
+    .home__info{
+        position: relative;
+        margin-left: 3rem;
+        max-width: 1300px;
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 30px 10px;
+    }
+
+
+    /*===============  ABOUT  ===============*/
+    .about{
+         margin-top: 0;
+         margin-bottom: 0;
+         padding-top: 5rem;
+         padding-bottom: 5rem;
+    }
+    .about__colors{
+        position: absolute;
+        top: 2.2rem;
+        right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*===============  NUESTRO TRABAJO   ===============*/
+
+
+    
+    
+
+    /*===============  GALERIA  ===============*/
+
+
+    /*===============  CALL ACTION 2  ===============*/
+    .callAction_2{
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+    .callAction_2_text{
+        margin-top: 4rem;
+    }
+    .callAction_2_card__two{
+        transform: scale(1.19);
+        transition: all .4s;
+    }
+}
+
+
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+    /*===============  CALL ACTION  ===============*/
+    .callAction{
+        height: 780px;
+    }
+
+}
+
+@media screen and (min-width: 1550px) {
+
+    /*===============  ABOUT  ===============*/
+
+}

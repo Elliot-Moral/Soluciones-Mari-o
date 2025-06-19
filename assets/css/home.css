@@ -475,7 +475,7 @@ body{
 
     /*===============  SERVICIOS  ===============*/
     .servicios__info{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-top: 1.2rem;
     }
 

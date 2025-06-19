@@ -4,7 +4,7 @@ body{
 /*=============== HOME ===============*/
 .home_bg{
     width: 100%;
-      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/renovations/banner_remode.webp);
+      background-image: linear-gradient(180deg, #3f3e3f80 0%, rgba(73, 73, 73, 0.5) 35%, rgba(2, 2, 2, 0.597) 100%), url(../img/workheights/banner_alturas.jpeg);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -64,39 +64,127 @@ body{
      color: var(--cuarto-color);
 }
 .contenedor__about{
-    gap: 2rem;
-}
-.about__title{
-    text-align: left;
-    color: var(--title-color);
-}
-.about__row{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 1rem;
-}
-.about__info{
+    gap: 1.2rem;
+    grid-template-columns: 1fr;
     margin-bottom: 2rem;
 }
-.about__img{
+.about__card{
+    background-color: #fff;
     position: relative;
+    padding: 1.6rem;
+    padding-bottom: 2.5rem;
+    box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 9px -1px rgba(0,0,0,0.75);
 }
-.about__overlay{
-    width: 70%;
-    padding: 1.2rem;
-    background-color: var(--body-color);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-}
-.title__overlay{
-    color: var(--first-color);
+.card__title{
+    text-align: center;
     margin-bottom: 10px;
+    color: var(--cuarto-color);
+    font-size: 20px;
 }
-.info__last{
-    margin-top: 2rem;
+.about__titleCard{
+    padding: 0.2rem;
+    color: var(--cuarto-color);
+}
+.card__flotante{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: #EB394A;
+    right: 0;
+    bottom:0;
+    border-radius: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__gray{
+    background-color: #E6E6E6;
+}
+.about__textCard{
+    color: var(--text-color);
 }
 
+/*=============== NUESTRO TRABAJO ===============*/
+.nuestro_trabajo{
+    background-color: var(--body-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--cuarto-color);
+}
+.nuestro__mainImg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mainImg{
+    width: 70%;
+}
+.container__textImg{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+.contaner__secundImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contaner__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 200px;
+    margin: auto auto;
+}
+.nuestro__text{
+    background-color: var(--body-color);
+    padding: 0.7rem;
+}
+.secundImg__text{
+    padding: 1rem;
+    background-color: #EB394A;
+    color: var(--body-color);
+}
+.img__puntos{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.red__subtitulo{
+    color: #EB394A;
+}
+/*=============== BENEFICIOS ===============*/
+.beneficios{
+     background-color: var(--body-color);
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 1.5rem;
+     padding-bottom: 2rem;
+     color: var(--cuarto-color);
+}
+.beneficios__text{
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    transform: translateY(-50px);
+    background-color: var(--body-color);
+}
+.beneficios__cardTitle{
+    margin-bottom: 8px;
+    font-size: 18px;
+}
 
 /*=============== CALL ACTIONS 2 ===============*/
 .callAction_2{
@@ -216,25 +304,10 @@ body{
     .about{
         margin-bottom: 0;
     }
-    .about__section{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        /* justify-content: center; */
-        align-items: center;
-        justify-items: center;
+    .contenedor__about{
+        grid-template-columns: repeat(3, 1fr);
     }
-    .about__img{
-        max-height: 450px;
-        width: 78%;
-        img{
-            max-height: 450px;
-            object-fit: cover;
-        }
-    }
-    .about__info{
-        width: 78%;
-    }
+                           
 
     /*=============== CONTACTO ===============*/
     .contacto{
@@ -280,6 +353,52 @@ body{
          margin-bottom: 0;
          padding-top: 5rem;
          padding-bottom: 5rem;
+    }
+    .about__colors{
+        position: absolute;
+        top: 2.2rem;
+        right: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*===============  NUESTRO TRABAJO   ===============*/
+
+    .nuestro_trabajo{
+         margin-top: 0;
+         margin-bottom: 0;
+         padding-bottom: 5rem;
+    }
+    .contenedor__nuestro_trabajo{
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+    }
+    .img__puntos{
+        left: 30px;
+    }
+    .contaner__text{
+        margin-left: 2rem;
+    }
+    .nuestro__text{
+        padding: 1rem;
+    }
+    .nuestro__infoTitle{
+        text-align: left;
+    }
+    
+    /*===============  GALERIA  ===============*/
+    .beneficios{
+         margin-top: 0;
+         margin-bottom: 0;
+         padding-bottom: 5rem;
+    }
+    .beneficios__subtitulo{
+        text-align: center;
+    }
+    .contenedor__beneficios{
+        margin-top: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
     }
 
     /*===============  CALL ACTION 2  ===============*/

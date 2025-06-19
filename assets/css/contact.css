@@ -1,0 +1,320 @@
+body{
+    background-color: var(--cuarto-color);
+}
+/*=============== HOME ===============*/
+.home_bg{
+    width: 100%;
+    background-image: url(../img/contact/contact__banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    padding-top: 3.5rem;
+}
+
+.home__info{
+    position: relative;
+    margin-left: 1rem;
+}
+.home__title{
+    font-size: 20px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__subtitle{
+    font-size: 14px;
+    margin: 10px;
+    color: var(--sexto-color);
+}
+.home__botones{
+    margin: 10px;
+}
+
+.home__aside{
+    background-color: #4c4b4b8e;
+}
+.home__social{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.home__icon{
+    color: var(--sexto-color);
+    font-size: 1rem;
+    transition: color .4s;
+}
+.home__icon:hover{
+    color: var(--first-color);
+}
+
+
+/*=============== ABOUT ===============*/
+.contact{
+    color: #8c8a8a;
+    background: #272727;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.title__form{
+    color: var(--cuarto-color);
+}
+.form__contact{
+    background-color: var(--body-color);
+    padding: 2rem;
+    border-radius: 10px 10p 0 0;   
+}
+.contaner__form{
+    margin-top: 1rem;
+}
+.header__form{
+    margin-bottom: 1rem;
+}
+.form__group{
+    margin-bottom: 1rem;
+}
+.textarea__form{
+    display: flex;
+}
+.textarea__form{
+    font-family: inherit;
+    padding-left: 3px;
+    width: 100%;
+    height: 100px;
+}
+.input__form, .textarea__form{
+    border: 1px solid #bdbdbd;
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.btn__primary{
+    margin-top: 10px;
+    background-color: var(--first-color);
+    color: var(--sexto-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.btn__primary:hover{
+    background-color: #272727;
+}
+
+/* image */
+.img__form{
+    position: relative;
+}
+.image__form{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+}
+.info__img{
+    width: 100%;
+    height: 100%;
+    background-color: #27272774;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    color: var(--body-color);
+}
+.info__item{
+    margin-top: 0.5rem;
+    h3{
+        font-size: 15px;
+    }
+}
+.media{
+    width: 180px;
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+/*=============== GOOGLE MAPS ===============*/
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.map__iframe{
+    width: 100% !important;
+    height: 400px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.img__map{
+    position: relative;
+}
+.info__map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: var(--body-color);
+}
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 30px;
+        margin: 40px 10px 30px 10px;
+    }
+    .home_bg{
+        height: 400px;
+    }
+
+
+    /*=============== ABOUT & SEVICIOS ===============*/
+    .about{
+         padding-top: 4rem;
+    }
+    .contenedor__about{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 765px) {
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 40px;
+        margin: 80px 10px 20px 10px;
+    }
+    .home_bg{
+        height: 500px;
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .home__icon{
+        font-size: 1.5rem;
+    }
+    .home__social{
+        gap: 30px;
+    }
+    .home__aside{
+        padding-bottom: 20px;
+    }
+
+    /*=============== ABOUT ===============*/
+    .contenedor__contact{
+        grid-template-columns: 1fr 1fr;
+    }
+    .image__form{
+        height: 100%;
+    }
+    .info__img{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .info__item{
+        h3{
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    }
+
+    /*=============== GOOGLE MAPS ===============*/
+    .contenedor__maps{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .map{
+        grid-area: map;
+    }
+    .img__map{
+        grid-area: img;
+        max-width: 512px;
+    }
+    .map__iframe{
+        width: 512px;
+        height: 339px;
+    }
+    .info__map{
+        padding: 3rem;
+    }
+
+}
+
+
+
+/* For large devices */
+@media screen and (min-width: 1023px) {
+  .section{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+    /*=============== HOME ===============*/
+    .home__title{
+        font-size: 50px;
+        margin: 200px 10px 40px 10px;
+    }
+    .home_bg{
+        height: 700px;
+        grid-template-columns: 22fr 1fr;
+    }
+    .home__info{
+        position: relative;
+        margin-left: 3rem;
+        max-width: 1300px;
+    }
+    .home__subtitle{
+        font-size: 20px;
+        margin: 30px 10px;
+    }
+    .home__aside{
+        height: 100%;
+    }
+
+    /*===============  ABOUT  ===============*/
+
+    /*===============  PROYECTOS  ===============*/
+ 
+
+}
+
+
+
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+
+    /*===============  PROYECTOS  ===============*/
+
+
+
+}
+
+@media screen and (min-width: 1550px) {
+
+    /*===============  ABOUT  ===============*/
+
+}
