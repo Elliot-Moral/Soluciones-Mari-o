@@ -70,7 +70,7 @@
                     <h1 class="home__title">Trabajos en Alturas con Seguridad y Precisión en Villavicencio y Tampa</h1>
                     <h3 class="home__subtitle">En Soluciones Integrales Mariño realizamos trabajos en alturas con personal certificado, equipos especializados y protocolos estrictos de seguridad. Ya sea limpieza, pintura, mantenimiento o instalación, garantizamos resultados profesionales en zonas elevadas de difícil acceso, tanto en Villavicencio como en Tampa, Florida.</h3>
                     <div class="home__botones">
-                        <a class="bnt__primary" href="contacto">Cotiza tu Proyecto</a> 
+                        <a class="bnt__primary" href="contact">Cotiza tu Proyecto</a> 
                     </div>
                </div>
 
@@ -335,7 +335,7 @@
                 <div class="callAction_2_text">
                     <h3>¿Listo para transformar tus espacios?</h3>
                     <div class="container__boton boton__center">
-                        <a class="bnt__primary" href="contacto">Iniciar mi proyecto</a>
+                        <a class="bnt__primary" href="contact">Iniciar mi proyecto</a>
                     </div>
                 </div>
 
@@ -361,6 +361,18 @@
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
 
+
+      <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+        <!-- Botón flotante de WhatsApp -->
+        <a 
+            href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+            class="whatsapp-float" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Chatea por WhatsApp"
+        >
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+        </a>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>

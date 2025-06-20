@@ -22,7 +22,7 @@
         <!--==================== HEADER ====================-->
         <nav>
             <a class="logo" href="home">
-                <img src="assets/icons/logo.png" alt="grmariño logo" class="dribbble-logo"/>
+                <img src="assets/icons/sim_logo.png" alt="grmariño logo" class="dribbble-logo"/>
             </a>
             <span>
                 <a href="contacto">Contactanos</a>

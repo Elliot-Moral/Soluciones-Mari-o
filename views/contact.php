@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="assets/css/nav.css">
       <link rel="stylesheet" href="assets/css/contact.css">
       <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/compontes.css">
 
       <title> Nuestros Servicios | Soluciones Integrales Mariño</title>
    </head>
@@ -161,6 +162,17 @@
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
 
+      <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+        <!-- Botón flotante de WhatsApp -->
+        <a 
+            href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+            class="whatsapp-float" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Chatea por WhatsApp"
+        >
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+        </a>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/home.js"></script>

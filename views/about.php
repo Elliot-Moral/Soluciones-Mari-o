@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="assets/css/nav.css">
       <link rel="stylesheet" href="assets/css/about.css">
       <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/compontes.css">
 
       <title>Sobre Nosotros Soluciones Integrales Mariño</title>
    </head>
@@ -71,7 +72,7 @@
                     <h1 class="home__title">Conoce a Soluciones Integrales Mariño: Comprometidos con la excelencia en obra civil, remodelación y servicios generales</h1>
                     <h3 class="home__subtitle">En Soluciones Integrales Mariño brindamos soluciones confiables y profesionales en obra civil, remodelación, redes eléctricas, pintura, y aseo. Desde 2013, nuestra experiencia nos ha consolidado como líderes en Villavicencio, Meta, por nuestro compromiso con la calidad, el cumplimiento y la satisfacción de nuestros clientes.</h3>
                     <div class="home__botones">
-                        <a class="bnt__primary" href="contacto">Cotiza tu Proyecto</a> 
+                        <a class="bnt__primary" href="contact">Cotiza tu Proyecto</a> 
                     </div>
                </div>
 
@@ -180,7 +181,7 @@
                         <h2 class="callAction__title">Construyamos juntos tu próximo proyecto</h2>
                         <p class="callAction__parrafo">Contáctanos hoy y déjanos ayudarte a transformar tu espacio con experiencia, calidad y compromiso. En Soluciones Integrales Mariño, tu idea es el inicio de una gran obra.</p>
                         <div class="container__boton callAction__contenBoton">
-                           <a class="bnt__primary callAction__boton" href="contacto">Iniciar mi proyecto</a>
+                           <a class="bnt__primary callAction__boton" href="contact">Iniciar mi proyecto</a>
                         </div>
                     </div> 
 
@@ -269,7 +270,7 @@
                 <div class="callAction_2_text">
                     <h3>¿Que esperas para realizar tu remodelacion?</h3>
                     <div class="container__boton boton__center">
-                        <a class="bnt__primary" href="contacto">Iniciar mi proyecto</a>
+                        <a class="bnt__primary" href="contact">Iniciar mi proyecto</a>
                     </div>
                 </div>
 
@@ -294,6 +295,18 @@
 
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
+
+        <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+        <!-- Botón flotante de WhatsApp -->
+        <a 
+            href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+            class="whatsapp-float" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Chatea por WhatsApp"
+        >
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+        </a>
 
       
       <!--=============== MAIN JS ===============-->

@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="assets/css/nav.css">
       <link rel="stylesheet" href="assets/css/home.css">
       <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/compontes.css">
 
       <title>Soluciones Integrales Mariño | Construcciones y más </title>
    </head>
@@ -63,7 +64,7 @@
                     <h1 class="home__title">Expertos en Obras Civiles, Remodelaciones y Servicios Integrales en Colombia y Estados Unidos</h1>
                     <h3 class="home__subtitle">Expertos en remodelaciones y obras civiles con más de 12 años de experiencia en Colombia y Tampa. Calidad, cumplimiento y soluciones integrales que transforman tus espacios.</h3>
                     <div class="home__botones">
-                        <a class="bnt__primary" href="contacto">Cotiza tu Proyecto</a> 
+                        <a class="bnt__primary" href="contact">Cotiza tu Proyecto</a> 
                     </div>
                </div>
 
@@ -265,7 +266,7 @@
                         <br>
                         <p>Nuestra capacidad de adaptación, atención personalizada y cumplimiento en tiempos de entrega nos ha posicionado como una empresa confiable y preferida por nuestros clientes tanto en Colombia como en Estados Unidos.</p>
                         <div class="container__boton">
-                           <a class="bnt__primary" href="contacto">Conocenos</a> 
+                           <a class="bnt__primary" href="contact">Conocenos</a> 
                         </div>
                      </div>
                      <div class="lideres__img">
@@ -287,7 +288,7 @@
                         <p class="callParrafo">Trabajamos con materiales de primera y un equipo altamente capacitado.</p>
                         <p class="callParrafo">La calidad no es una opción, es nuestro estándar en cada obra.</p>
                         <div class="container__boton">
-                           <a class="bnt__primary" href="contacto">Iniciar Tu Proyecto</a> 
+                           <a class="bnt__primary" href="contact">Iniciar Tu Proyecto</a> 
                         </div>
                      </div>
 
@@ -471,6 +472,19 @@
 
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
+      
+      <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+      <!-- Botón flotante de WhatsApp -->
+      <a 
+         href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+         class="whatsapp-float" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         aria-label="Chatea por WhatsApp"
+      >
+         <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+      </a>
+
 
       
       <!--=============== MAIN JS ===============-->

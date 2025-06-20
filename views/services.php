@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="assets/css/nav.css">
       <link rel="stylesheet" href="assets/css/services.css">
       <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/compontes.css">
 
       <title> Nuestros Servicios | Soluciones Integrales Mariño</title>
    </head>
@@ -63,7 +64,7 @@
                     <h1 class="home__title">Expertos en Obras Civiles, Remodelaciones y Servicios Integrales en Colombia y Estados Unidos</h1>
                     <h3 class="home__subtitle">Expertos en remodelaciones y obras civiles con más de 12 años de experiencia en Colombia y Tampa. Calidad, cumplimiento y soluciones integrales que transforman tus espacios.</h3>
                     <div class="home__botones">
-                        <a class="bnt__primary" href="contacto">Cotiza tu Proyecto</a> 
+                        <a class="bnt__primary" href="contact">Cotiza tu Proyecto</a> 
                     </div>
                </div>
 
@@ -167,6 +168,18 @@
 
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
+
+      <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+        <!-- Botón flotante de WhatsApp -->
+        <a 
+            href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+            class="whatsapp-float" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Chatea por WhatsApp"
+        >
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+        </a>
 
       
       <!--=============== MAIN JS ===============-->

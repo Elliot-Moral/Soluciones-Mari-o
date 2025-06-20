@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="assets/css/nav.css">
       <link rel="stylesheet" href="assets/css/renovations.css">
       <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/compontes.css">
 
       <title>Renovaciones - Soluciones Integrales Mariño</title>
    </head>
@@ -70,7 +71,7 @@
                     <h1 class="home__title">Remodelaciones Profesionales que Transforman tus Espacios con Calidad y Cumplimiento</h1>
                     <h3 class="home__subtitle">En Soluciones Integrales Mariño hacemos realidad tus ideas con remodelaciones de alta calidad, ajustadas a tus necesidades y presupuesto. Ya sea en tu hogar, oficina o local comercial, renovamos cada espacio con materiales de primera, diseño funcional y un equipo experto comprometido con los plazos y los detalles.</h3>
                     <div class="home__botones">
-                        <a class="bnt__primary" href="contacto">Cotiza tu Proyecto</a> 
+                        <a class="bnt__primary" href="contact">Cotiza tu Proyecto</a> 
                     </div>
                </div>
 
@@ -163,7 +164,7 @@
                 <div class="callAction_2_text">
                     <h3>¿Que esperas para realizar tu remodelacion?</h3>
                     <div class="container__boton boton__center">
-                        <a class="bnt__primary" href="contacto">Iniciar mi proyecto</a>
+                        <a class="bnt__primary" href="contact">Iniciar mi proyecto</a>
                     </div>
                 </div>
 
@@ -188,6 +189,18 @@
 
       <!--==================== FOOTER ====================-->
       <?php include ("shared/footer.php") ?>
+
+      <!--==================== BOTON WTHATAPP FLOTANTE ====================-->
+        <!-- Botón flotante de WhatsApp -->
+        <a 
+            href="https://wa.me/573123004891?text=hola,%20quiero%20tengo%20un%20proyecto" 
+            class="whatsapp-float" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Chatea por WhatsApp"
+        >
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/480/small/whatsapp-icon-free-png.png" alt="">
+        </a>
 
       
       <!--=============== MAIN JS ===============-->
